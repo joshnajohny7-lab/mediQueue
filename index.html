@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MediQueue - Book Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏥 MediQueue Hospital</h1>
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+    <input type="text" id="name" placeholder="Patient Name" required><br><br>
+    <input type="number" id="age" placeholder="Age" required><br><br>
+
+    <select id="doctor" required>
+        <option value="">Select Doctor</option>
+        <option value="Dr. Anil">Dr. Anil - General</option>
+        <option value="Dr. Meera">Dr. Meera - Cardiology</option>
+    </select><br><br>
+
+    <input type="date" id="date" required><br><br>
+
+    <button type="submit">Book Appointment</button>
+</form>
+
+<br>
+<a href="admin.html">Admin Login</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>

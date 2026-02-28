@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+if (localStorage.getItem("isLoggedIn") !== "true") {
+    window.location.href = "admin.html";
+}
+</script>
+
+<h1>Admin Dashboard</h1>
+
+<button onclick="logout()">Logout</button>
+
+<br><br>
+
+<input type="text" id="search" placeholder="Search by name">
+<button onclick="loadAppointments()">Search</button>
+
+<br><br>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Doctor</th>
+            <th>Date</th>
+            <th>Token</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #d2d2fa;
+}
+
+h1 {
+    color: rgb(5, 5, 224);
+}
+
+form, .box {
+    background: rgb(109, 159, 233);
+    padding: 40px;
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+table {
+    margin: auto;
+    background: rgb(236, 234, 234);
+}
+
+#error {
+    color: red;
+}
+/* Landing Page Background */
+.landing-bg {
+    margin: 0;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Center Logo */
+.logo-container {
+    text-align: center;
+}
+
+/* Logo Animation */
+.animated-logo {
+    width: 450px;
+    animation: zoomFade 3s ease-in-out infinite alternate;
+}
+
+/* Animation Keyframes */
+@keyframes zoomFade {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+}

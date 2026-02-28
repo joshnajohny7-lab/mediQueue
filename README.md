@@ -6,23 +6,32 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Herizon]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Joshna Johny] - [Albertian Institute of science and technology]
+- Member 2: [Lifiya Magdalene P A] - [Albertian Institute of science and technology]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+
+MEDIQUEUE is a web-based hospital appointment booking system that allows patients to schedule doctor consultations online easily and efficiently. The platform provides a simple interface for booking appointments and includes an admin panel to manage patient records. It helps reduce waiting time, improve hospital organization, and enhance overall patient experience.
+
 
 ### The Problem statement
-[What problem are you solving?]
+
+Many hospitals and clinics still rely on manual appointment booking systems, which lead to long waiting times, overcrowding, scheduling conflicts, and inefficient record management. Patients often face difficulty in booking appointments in advance and tracking their consultation details.
+
+MEDIQUEUE solves this problem by providing a digital platform for booking and managing hospital appointments, reducing manual errors and improving overall efficiency.
 
 ### The Solution
-[How are you solving it?]
+
+MEDIQUEUE solves this problem by providing a web-based platform where patients can book appointments online by selecting doctors and available dates. The system stores appointment details digitally, reducing manual paperwork and scheduling errors.
+
+Additionally, an admin panel allows hospital staff to securely view and manage appointment records, ensuring organized scheduling and improved hospital workflow.
+
 
 ---
 
@@ -31,10 +40,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML, CSS, JavaScript
+- Frameworks used: None (Built using basic web technologies)
+- Libraries used: None (Vanilla JavaScript)
+- Tools used:  VS Code,Google Chrome (for testing)
 
 **For Hardware:**
 - Main components: [List main components]
@@ -46,10 +55,17 @@
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+* Feature 1: Online Appointment Booking
+  Patients can easily book appointments by entering their details, selecting a doctor, and choosing a preferred date.
+
+* Feature 2: Admin Login System
+  A secure admin panel allows hospital staff to log in and access appointment records.
+
+* Feature 3: Digital Record Management
+  All appointment details are stored digitally, reducing paperwork and minimizing scheduling errors.
+
+* Feature 4: User-Friendly Interface
+  The website is simple, responsive, and easy to navigate, ensuring a smooth experience for patients and administraton.
 
 ---
 
@@ -59,12 +75,12 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+No installation required
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+double click on landing.html, then the browser will be opened.
 ```
 
 ### For Hardware:
